@@ -19,7 +19,7 @@ st.write("---")
 
 # Display and update tasks
 for i, todo in enumerate(st.session_state.todos):
-    col1, col2 = st.columns([0.1, 0.9])
+    col1, col2 = st.columns([0.1, 8.0])
     with col1:
         done = st.checkbox("", value=todo["done"], key=i)
     with col2:
